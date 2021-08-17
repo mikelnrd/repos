@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test page</title>
+</head>
+
+<body>
+    <p>This page tests the code as it runs in production. Note that this page could be behind auth or not deployed at
+        all in a real world application)</p>
+    <p>Check the console (right click, view console) and look for an 'all tests passed' message (or to see reported test
+        failures). In a real-world application this would be checked automatically, failing the building and aborting the deploy on test failure.</p>
+    <p>This is a lightweight approach to integration testing, where the full request-response cycle is tested. This
+        approach tests that the API endpoint is called correctly and that the page's html is rendered as expected. Unit
+        testing of the individual functions could also be added to achieve higher test coverage. Note that I have only
+        implemented a couple of example tests for demonstration purposes.</p>
+    <script type="module" src="./test.js"></script>
+</body>
+
+</html>
